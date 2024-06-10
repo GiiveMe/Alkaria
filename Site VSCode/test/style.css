@@ -1,0 +1,38 @@
+/* Background */
+body {
+    background-color: rgb(51, 124, 130);
+}
+
+/* Rectangles */
+.big-rect {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 2.5vw;
+    width: 40vw;
+    height: 45vw;
+    background-color: rgb(66, 161, 168);
+}
+
+/* Petit Rectangles */
+#lil-rect {
+    display: flex;
+    justify-content: space-between;
+}
+.lil-rect1 {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 2.5vw;
+    width: 40vw;
+    height: 18vw;
+    background-color: rgb(66, 161, 168);
+}
+
+.lil-rect2 {
+    display: flex;
+    align-self: center;
+    margin-left: 5vw;
+    margin-top: 2.5vw;
+    width: 40vw;
+    height: 18vw;
+    background-color: rgb(66, 161, 168);
+}
