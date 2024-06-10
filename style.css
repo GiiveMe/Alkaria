@@ -1,0 +1,61 @@
+/* Background */
+body {
+    font-family: 'Segoe UI';
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 124, 130);
+}
+
+/* Header */
+header {
+    margin-top: -1.15vw;
+    height: 3vw;
+    background-color: rgb(55, 140, 162);
+}
+
+h1 {
+    color: nigga;
+    text-align: center;
+}
+
+/* Rectangles */
+#rectangles {
+    display: flex;
+    width: 100%;
+    height: 100vw;
+}
+
+.big-rect, #lil-rect {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 2.5vw;
+    width: 40vw;
+    height: 45vw;
+}
+
+.big-rect {
+    background-color: rgb(66, 161, 168);
+    border-radius: 4%;
+}
+
+/* Petit Rectangles */
+#lil-rect {
+    justify-content: space-between;
+}
+
+.lil-rect1 {
+    width: 40vw;
+    height: 20vw;
+    background-color: rgb(66, 161, 168);
+    border-radius: 5%;
+}
+
+.lil-rect2 {
+    width: 40vw;
+    height: 20vw;
+    background-color: rgb(66, 161, 168);
+    border-radius: 5%;
+}
