@@ -6,18 +6,36 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(51, 124, 130);
+    color: nigga;
 }
 
 /* Header */
 header {
-    margin-top: -1.15vw;
+    font-size: 1vw;
+    margin-top: -1.25vw;
     height: 3vw;
     background-color: rgb(55, 140, 162);
 }
 
 h1 {
-    color: nigga;
     text-align: center;
+}
+
+/* Menu */
+.menu {
+    background-color: rgb(66, 161, 168);
+    font-size: 0.75vw;
+    width: 20vw;
+    height: 4vw;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 5%;
+
+    /* Aligner à droite */
+    float: right;
+    margin-right: 2vw;
+    margin-top: 1vw;
 }
 
 /* Rectangles */
@@ -58,4 +76,15 @@ h1 {
     height: 20vw;
     background-color: rgb(66, 161, 168);
     border-radius: 5%;
+}
+
+
+/* Other */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
 }
