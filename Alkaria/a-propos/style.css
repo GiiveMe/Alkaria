@@ -1,0 +1,77 @@
+/* Background */
+body {
+    font-family: 'Segoe UI';
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 124, 130);
+    color: nigga;
+}
+
+/* Header */
+header {
+    font-size: 1vw;
+    margin-top: -1.25vw;
+    height: 3vw;
+    background-color: rgb(55, 140, 162);
+    text-align: center;
+}
+
+/* Menu */
+.menu {
+    background-color: rgb(66, 161, 168);
+    font-size: 0.75vw;
+    width: 20vw;
+    height: 4vw;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 5%;
+
+    /* Aligner à droite */
+    float: right;
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+
+/* Rectangles */
+.r1, .r2, .r3 {
+    background-color: rgb(66, 161, 168);
+    border-radius: 1vw;
+}
+
+.r1 {
+    width: 60vw;
+    height: 25vw;
+    margin-top: 8vw;
+    margin-left: 3vw;
+}
+
+.r2 {
+    width: 38vw;
+    height: 45vw;
+    margin-top: 8vw;
+    margin-right: 4vw;
+    float: right;
+}
+
+.r3 {
+    width: 90vw;
+    height: 28vw;
+    margin: 5vw;
+    margin-top: 61vw;
+    margin-bottom: 3vw;
+}
+
+/* ----------------------------------------------- */
+
+/* Other */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
